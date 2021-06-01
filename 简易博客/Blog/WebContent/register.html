@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/LR.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/quietflow.js"></script>
+</head>
+<body onload='$("body").quietflow({
+	theme : "bouncingBalls",
+	specificColors : ["rgba(255,10,50,.5)", 
+				"rgba(10,255,50,.5)", 
+				"rgba(10,50,255,.5)", 
+				"rgba(0,0,0,.5)"]
+})' >
+    <div>
+        <h1>Register<br>
+            <img> <!-- logo放置处 -->
+        </h1>
+        <form action="RegServlet" method="post">
+            <input class="up" type="text" name="username" id="username" placeholder="Username"> <br>
+            <input class="up" type="text" name="name" id="name" placeholder="Name"> <br>
+            <input class="up" type="password" name="password" id="password" placeholder="Password"> <br>
+            <input type="submit" id="submit" value="Register">
+            <span>Have an account? <a href='login.html'>Login</a></span>
+        </form>
+    </div>
+</body>
+</html>

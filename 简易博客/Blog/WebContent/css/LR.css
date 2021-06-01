@@ -1,0 +1,98 @@
+*{margin: 0;padding: 0}
+html{height: 100%;}
+body{background-color: black;height: 100%;}
+        /* test */
+        input:-webkit-autofill{     /* 清除chrome默认的input黄色框 */
+            /* -webkit-box-shadow: 0 0 0px 1000px white inset; */
+        }
+
+        div{
+            padding-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 360px;
+            text-align: center;
+            display: block;
+            height: 500px;
+        }
+
+        h1{
+            margin: 0;
+            font-size: 24px;
+            color: white;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            background: rgb(0, 151, 252);
+            position: relative;
+            border-radius: 10px 10px 0 0;
+        }
+
+        form{
+            background: white;
+            padding: 45px 30px;
+            position: relative;
+            display: block;
+            text-align: center;
+            margin-top: 0;
+            border-radius: 0 0 10px 10px;
+        }
+        .up{
+            position: relative;
+            width: 100%;
+            cursor: default;
+            height: 48px;
+            border-top: transparent;
+            border-right: transparent;
+            border-left: transparent;
+            border-bottom: 1px solid #dfdfdf;
+            width: 100%;
+            margin-bottom: 20px;
+            outline: none;
+            padding-left: 35px;
+            box-sizing: border-box;
+        }
+        #username{background:url(../images/username.png) no-repeat;background-size:35px;}
+        #password{background:url(../images/password.png) no-repeat;background-size:35px;}
+        #name{background:url(../images/name.png) no-repeat;background-size:35px;}
+
+        #submit{
+            width: 148px;
+            height: 41px;
+            line-height: 41px;
+            color: #fff;
+            background: #7ed056;
+            border-radius: 3px;
+            font-family: brandon-bold;
+            font-size: 14px;
+            border: none;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            margin-left: -74px;
+            transition: .3s all ease-in-out;
+        }
+        #submit:hover{
+            background-color: gray;
+        }
+        
+        a{
+            text-decoration: none;
+            color: cornflowerblue;
+            font-weight: bold;
+            transition: .4s all
+        }
+        a:hover{
+            color: rgb(0, 151, 252);
+        }
+
+        img{
+            z-index: 666;
+            position: absolute;
+            bottom: -36px;
+            margin-left: -36px;
+            width: 76px;
+            height: 76px;
+            line-height: 76px;
+            background: black;
+            border-radius: 76px;
+        }

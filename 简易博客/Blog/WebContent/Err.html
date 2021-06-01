@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/message.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/quietflow.js"></script>                
+
+</head>
+<body onload='$("body").quietflow({
+    theme : "floatingBoxes",
+    specificColors : ["rgba(46, 204, 113, .5)", "rgba(52, 152, 219, .5)", "rgba(231, 76, 60, .5)", "rgba(155, 89, 182, .5)", "rgba(241, 196, 15, .5)"],
+    boxCount : 500,
+    backgroundCol : "black"
+})'>
+    <div>
+        <span id="up" style="background: rgba(231, 77, 60, 0.8);"><h3>Message</h3></span>
+        <span id="down" >
+            <p>
+                Something was wrong
+            </p>
+        </span>
+    </div>
+</body>
+</html>
