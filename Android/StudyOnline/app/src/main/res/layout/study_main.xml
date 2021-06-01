@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <ImageView
+            android:id="@+id/study_main_img"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:background="@color/blue" />
+        <TextView
+            android:id="@+id/study_main_text"
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:text="HTML课"
+            android:textSize="25dp"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:background="#65000000"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:id="@+id/atxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </ScrollView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/study_main_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

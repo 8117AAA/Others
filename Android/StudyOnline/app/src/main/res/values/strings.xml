@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Study Online</string>
+    <string name="study">Study</string>
+    <string name="chat">Chat</string>
+    <string name="share">Share</string>
+    <string name="circle"></string>
+    <string name="microphone"></string>
+    <string name="image"></string>
+    <string name="plus"></string>
+    <string name="plane"></string>
+    <string name="camera"></string>
+    <string name="chevron_left"></string>
+    <string name="user"></string>
+</resources>

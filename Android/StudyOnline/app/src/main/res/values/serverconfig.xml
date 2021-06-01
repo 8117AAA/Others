@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_ip" >192.168.31.193</string>
+    <integer name="server_port">10086</integer>
+    <string name="study_url" >http://192.168.31.193/resource/</string>
+</resources>

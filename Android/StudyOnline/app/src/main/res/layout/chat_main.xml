@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#228BE6" >
+
+        <Button
+            android:id="@+id/chat_chevron_left"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chevron_left"
+            android:textSize="30dp"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/chat_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="username"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/chat_user"
+            android:layout_marginRight="5dp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:textSize="30dp"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/chat_edit"
+                android:background="@drawable/chat_edit"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:hint="最多200字"
+                android:maxLength="200"
+                android:maxHeight="100dp"
+                />
+            <Button
+                android:id="@+id/chat_plane"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/plane"
+                android:background="@null"
+                android:textSize="30dp"
+                android:textColor="@color/blue"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/chat_image"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/image"
+                android:background="@null"
+                android:textSize="30dp"
+                android:textColor="#A0A0A0"
+                />
+            <Button
+                android:id="@+id/chat_camera"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/camera"
+                android:background="@null"
+                android:textSize="30dp"
+                android:textColor="#A0A0A0"
+                />
+            <Button
+                android:id="@+id/chat_microphone"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/microphone"
+                android:background="@null"
+                android:textSize="30dp"
+                android:textColor="#A0A0A0"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
