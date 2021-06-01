@@ -10,9 +10,9 @@
 
 ![登录](.md_file/登录.png)
 
-![商品](.md_file\商品.png)
+![商品](.md_file/商品.png)
 
-![购物车](.md_file\购物车.png)
+![购物车](.md_file/购物车.png)
 
-![订单和用户详情](.md_file\订单和用户详情.png)
+![订单和用户详情](.md_file/订单和用户详情.png)
 
